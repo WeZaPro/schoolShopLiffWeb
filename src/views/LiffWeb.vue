@@ -92,6 +92,11 @@ export default {
       _IP: '',
     }
   },
+  created() {
+    // window.location.href = 'https://line.me/ti/p/@798hmctv'
+    console.log('create--->')
+    window.open('https://line.me/ti/p/@798hmctv', '_blank')
+  },
   // Url Dev = https://liff.line.me/1656824759-PrZzVE5w/?botUserId=Uad26c3928a8f42fb5eb677bf560bf07f
   mounted() {
     console.log('mounted--->')
