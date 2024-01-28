@@ -99,10 +99,11 @@ export default {
     this.liffAdd()
     this.getIpAddress()
     // goto line oa
-    window.open('https://line.me/ti/p/@798hmctv', '_blank')
+    this.openLineChat()
   },
   methods: {
     openLineChat() {
+      console.log('open line oa--->')
       window.open('https://line.me/ti/p/@798hmctv', '_blank')
     },
     async getIpAddress() {
