@@ -104,13 +104,9 @@ export default {
     this.liffAdd()
     this.getIpAddress()
     // goto line oa
-    this.openLineChat()
-    this.testMounted()
+    // this.openLineChat()
   },
   methods: {
-    // testMounted() {
-    //   console.log('test mounted--->')
-    // },
     openLineChat() {
       console.log('open line oa--->')
       window.open('https://line.me/ti/p/@798hmctv', '_blank')
@@ -165,6 +161,7 @@ export default {
 
                 // save db *** findAndUpdate ****
                 //this.saveAudience()
+                this.openLineChat()
               } else {
                 var gtm_data_onMobile = {
                   botUserId: this.$route.query.botUserId, //use รับค่าจาก api
