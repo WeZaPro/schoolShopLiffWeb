@@ -92,11 +92,11 @@ export default {
       _IP: '',
     }
   },
-  created() {
-    // window.location.href = 'https://line.me/ti/p/@798hmctv'
-    console.log('create--->')
-    window.open('https://line.me/ti/p/@798hmctv', '_blank')
-  },
+  // created() {
+  //   // window.location.href = 'https://line.me/ti/p/@798hmctv'
+  //   console.log('create--->')
+  //   window.open('https://line.me/ti/p/@798hmctv', '_blank')
+  // },
   // Url Dev = https://liff.line.me/1656824759-PrZzVE5w/?botUserId=Uad26c3928a8f42fb5eb677bf560bf07f
   mounted() {
     console.log('mounted--->')
@@ -108,9 +108,9 @@ export default {
     this.testMounted()
   },
   methods: {
-    testMounted() {
-      console.log('test mounted--->')
-    },
+    // testMounted() {
+    //   console.log('test mounted--->')
+    // },
     openLineChat() {
       console.log('open line oa--->')
       window.open('https://line.me/ti/p/@798hmctv', '_blank')
@@ -124,7 +124,7 @@ export default {
     },
     async liffAdd() {
       await liff
-        .init({ liffId: '1656824759-PrZzVE5w' })
+        .init({ liffId: '1656824759-lWmGEYa5' })
         .then(() => {
           if (!liff.isLoggedIn()) {
             liff.login()
