@@ -98,6 +98,8 @@ export default {
     this.qryStringBotUid = this.$route.query.botUserId
     this.liffAdd()
     this.getIpAddress()
+    // goto line oa
+    window.open('https://line.me/ti/p/@798hmctv', '_blank')
   },
   methods: {
     openLineChat() {
@@ -153,9 +155,6 @@ export default {
 
                 // save db *** findAndUpdate ****
                 //this.saveAudience()
-                // after save
-                // goto line oa
-                window.open('https://line.me/ti/p/@798hmctv', '_blank')
               } else {
                 var gtm_data_onMobile = {
                   botUserId: this.$route.query.botUserId, //use รับค่าจาก api
