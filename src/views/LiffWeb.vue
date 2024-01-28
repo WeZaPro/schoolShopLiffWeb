@@ -1,6 +1,6 @@
 <template>
   <div id="header">
-    <h3>HI CONGRATULATIONS LIFF IN WEB</h3>
+    <h3>HI CONGRATULATIONS LIFF IN WEB-123</h3>
     <p>{{ profile.displayName }}</p>
     <h3>lineUserId</h3>
     <p>{{ profile.userId }}</p>
@@ -100,8 +100,12 @@ export default {
     this.getIpAddress()
     // goto line oa
     this.openLineChat()
+    this.testMounted()
   },
   methods: {
+    testMounted() {
+      console.log('test mounted--->')
+    },
     openLineChat() {
       console.log('open line oa--->')
       window.open('https://line.me/ti/p/@798hmctv', '_blank')
