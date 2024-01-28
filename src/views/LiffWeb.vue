@@ -137,6 +137,8 @@ export default {
                   os: this.os,
                 }
 
+                // redirect to line OA
+
                 console.log('this os is web')
                 console.log('gtm_data_onWeb --> ', gtm_data_onWeb)
 
@@ -149,8 +151,11 @@ export default {
                 //next after save db
                 // redirect to line app with qrcode
 
-                // save db
+                // save db *** findAndUpdate ****
                 //this.saveAudience()
+                // after save
+                // goto line oa
+                window.open('https://line.me/ti/p/@798hmctv', '_blank')
               } else {
                 var gtm_data_onMobile = {
                   botUserId: this.$route.query.botUserId, //use รับค่าจาก api
