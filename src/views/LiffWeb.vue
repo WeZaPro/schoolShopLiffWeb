@@ -90,6 +90,9 @@ export default {
       _ads_utm_medium: '',
       _ads_utm_term: '',
       _IP: '',
+
+      // window
+      result: '',
     }
   },
   // created() {
@@ -110,7 +113,13 @@ export default {
     openLineChat() {
       console.log('open line oa--->')
       // window.open('https://line.me/ti/p/@798hmctv', '_blank')
-      window.open('https://line.me/ti/p/@798hmctv', '_blank')
+      //window.open('https://line.me/ti/p/@798hmctv', '_blank')
+
+      this.result = window.open('https://line.me/ti/p/@798hmctv', '_blank')
+      this.closeLiff()
+    },
+    closeLiff() {
+      this.result.close()
     },
     async getIpAddress() {
       this._getIpAddress = await axios.get('https://api.ipify.org?format=text').then(function (response) {
