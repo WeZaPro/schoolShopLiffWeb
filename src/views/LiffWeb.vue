@@ -1,6 +1,6 @@
 <template>
   <div id="header">
-    <h3>HI CONGRATULATIONS LIFF IN WEB-123</h3>
+    <h3>HI CONGRATULATIONS LIFF IN WEB-123-Use</h3>
     <p>{{ profile.displayName }}</p>
     <h3>lineUserId</h3>
     <p>{{ profile.userId }}</p>
