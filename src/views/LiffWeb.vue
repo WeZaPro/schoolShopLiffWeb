@@ -33,9 +33,9 @@
 
     <!-- <p>param : {{ this.getParam }}</p> -->
   </div>
-  <!-- <div id="btnA">
-    <button @click="openLineChat">Line@</button>
-  </div> -->
+  <div id="btnA">
+    <button @click="openLineChat">GOTO Line@</button>
+  </div>
 
   <a href="https://line.me/ti/p/@798hmctv">
     <button id="btn">LINE @</button>
@@ -109,6 +109,7 @@ export default {
   methods: {
     openLineChat() {
       console.log('open line oa--->')
+      // window.open('https://line.me/ti/p/@798hmctv', '_blank')
       window.open('https://line.me/ti/p/@798hmctv', '_blank')
     },
     async getIpAddress() {
