@@ -92,7 +92,7 @@ export default {
       _IP: '',
 
       // window
-      result: '',
+      result: 'https://liff.line.me/1656824759-lWmGEYa5',
     }
   },
   // created() {
@@ -113,9 +113,9 @@ export default {
     openLineChat() {
       console.log('open line oa--->')
       // window.open('https://line.me/ti/p/@798hmctv', '_blank')
-      //window.open('https://line.me/ti/p/@798hmctv', '_blank')
+      window.open('https://line.me/ti/p/@798hmctv', '_blank')
 
-      this.result = window.open('https://line.me/ti/p/@798hmctv', '_blank')
+      //this.result = window.open('https://line.me/ti/p/@798hmctv', '_blank')
       this.closeLiff()
     },
     closeLiff() {
