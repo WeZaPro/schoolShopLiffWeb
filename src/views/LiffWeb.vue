@@ -104,7 +104,7 @@ export default {
   mounted() {
     console.log('mounted--->')
     this.qryStringBotUid = this.$route.query.botUserId
-    this.liffAdd()
+    //this.liffAdd()
     this.getIpAddress()
     // goto line oa
     // this.openLineChat()
