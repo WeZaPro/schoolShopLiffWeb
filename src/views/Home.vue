@@ -43,7 +43,7 @@
 
  
 
-  <a href="https://page.line.me/@454nqxks">
+  <a href="https://page.line.me/454nqxks">
     <button id="btn">LINE @</button>
   </a>
   
