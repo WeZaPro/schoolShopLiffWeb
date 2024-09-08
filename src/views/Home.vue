@@ -98,8 +98,17 @@ export default {
     this.qryStringBotUid = this.$route.query.botUserId
     this.liffAdd()
     this.getIpAddress()
+    this.getParamUrl()
   },
   methods: {
+    getParamUrl(){
+      // ดึง query parameters จาก URL
+    const urlParams = new URLSearchParams(window.location.search);
+
+    // อ่านค่าของ botUserId
+    const botUserId = urlParams.get('botUserId');
+    console.log(botUserId); 
+    },
     openLineChat() {
       window.open('https://line.me/ti/p/@798hmctv', '_blank')
     },
