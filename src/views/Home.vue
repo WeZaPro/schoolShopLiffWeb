@@ -119,7 +119,7 @@ export default {
           } else {
             this.loggedIn = liff.isLoggedIn()
             this.os = liff.getOS()
-            //
+            //qqq
 
             //this.getProfile()
             this.getFriendship()
