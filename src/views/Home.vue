@@ -112,7 +112,7 @@ export default {
     },
     async liffAdd() {
       await liff
-        .init({ liffId: '1656824759-lWmGEYa5' })
+        .init({ liffId: '1656824759-KYL5BkQ6' })
         .then(() => {
           if (!liff.isLoggedIn()) {
             liff.login()
