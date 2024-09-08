@@ -47,7 +47,7 @@
     <button id="btn">LINE @</button>
   </a>
 
-  <div id="logOut">
+  <div>
     <button @click="logOut">logOut</button>
   </div>
 
