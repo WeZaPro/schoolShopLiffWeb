@@ -90,7 +90,7 @@ export default {
       _ads_utm_medium: '',
       _ads_utm_term: '',
       _IP: '',
-      _getLineUid=''
+      
     }
   },
   // Url Dev = https://liff.line.me/1656824759-PrZzVE5w/?botUserId=Uad26c3928a8f42fb5eb677bf560bf07f
@@ -112,7 +112,7 @@ export default {
     },
     openLineChat() {
       //window.open('https://line.me/ti/p/@798hmctv', '_blank')
-      window.open('https://liff.line.me/1656824759-KYL5BkQ6/?botUserId=Uad26c3928a8f42fb5eb677bf560bf07f', '_blank')
+      window.open('https://liff.line.me/1656824759-KYL5BkQ6/?botUserId=Uad26c3928a8f42fb5eb677bf560bf07f')
       //this._getLineUid
     },
     async getIpAddress() {
@@ -138,7 +138,7 @@ export default {
             liff.getProfile().then(profile => {
               //this.sendMsg() // ใช้ตอนอยู่บน มือถือ ส่วนบน web ไม่ใช้
               this.profile = profile
-              this._getLineUid = this.profile.userId
+              
               //Todo -> function-->
               if ((this.os = 'web')) {
                 var gtm_data_onWeb = {
