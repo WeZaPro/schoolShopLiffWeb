@@ -113,6 +113,19 @@ export default {
     openLineChat() {
       //window.open('https://line.me/ti/p/@798hmctv', '_blank')
       window.open('https://liff.line.me/1656824759-KYL5BkQ6/?botUserId=Uad26c3928a8f42fb5eb677bf560bf07f')
+
+      liff.sendMessages([
+                {
+                    type: 'text',
+                    text: 'Uad26c3928a8f42fb5eb677bf560bf07f'
+                }
+            ])
+            .then(() => {
+                alert('Message sent');
+            })
+            .catch(err => {
+                console.log('Error sending message: ', err);
+            });
       //this._getLineUid
     },
     async getIpAddress() {
