@@ -47,7 +47,11 @@
     <button id="btn">LINE @</button>
   </a>
 
-  <button id="btnLogOut" onclick="logOut()">Log Out</button>
+  <div id="logOut">
+    <button @click="logOut">logOut</button>
+  </div>
+
+ 
   
 </template>
 
