@@ -112,7 +112,8 @@ export default {
     },
     openLineChat() {
       //window.open('https://line.me/ti/p/@798hmctv', '_blank')
-      window.open('https://liff.line.me/@454nqxks/?botUserId=Uad26c3928a8f42fb5eb677bf560bf07f')
+      //window.open('https://liff.line.me/@454nqxks/?botUserId=Uad26c3928a8f42fb5eb677bf560bf07f')
+      window.open('https://page.line.me/@454nqxks?botUserId=Uad26c3928a8f42fb5eb677bf560bf07f')
 
       liff.sendMessages([
                 {
