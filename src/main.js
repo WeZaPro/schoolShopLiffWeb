@@ -6,7 +6,7 @@ import { createGtm } from '@gtm-support/vue-gtm'
 createApp(App)
   .use(
     createGtm({
-      id: 'GTM-M4CGM7TC', // GTM ID
+      id: 'GTM-W4TS2Z4Q', // GTM ID
     })
   )
   .use(router)
