@@ -37,9 +37,14 @@
     <button @click="openLineChat">Line@</button>
   </div> -->
 
-  <a href="https://line.me/ti/p/@798hmctv">
+  <div id="btnA">
+    <button @click="openLineChat">OK</button>
+  </div>
+
+  <a href="https://page.line.me/@454nqxks?botUserId=Uad26c3928a8f42fb5eb677bf560bf07f">
     <button id="btn">LINE @</button>
   </a>
+  
 </template>
 
 <script>
@@ -113,7 +118,7 @@ export default {
     openLineChat() {
       //window.open('https://line.me/ti/p/@798hmctv', '_blank')
       //window.open('https://liff.line.me/@454nqxks/?botUserId=Uad26c3928a8f42fb5eb677bf560bf07f')
-      window.open('https://page.line.me/@454nqxks?botUserId=Uad26c3928a8f42fb5eb677bf560bf07f')
+      //window.open('https://page.line.me/@454nqxks?botUserId=Uad26c3928a8f42fb5eb677bf560bf07f')
 
       liff.sendMessages([
                 {
